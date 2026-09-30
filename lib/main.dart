@@ -55,7 +55,8 @@ class MainShell extends StatefulWidget {
 }
 
 class _MainShellState extends State<MainShell> {
-  int _index = 3; // نبدأ بتبويب "حسابي"
+  // ✅ التعديل: نبدأ بتبويب "الرئيسية" (Index 0) بدلاً من "حسابي"
+  int _index = 0; 
 
   static const List<Widget> _pages = [
     _PlaceholderPage('الرئيسية'),
